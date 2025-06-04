@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
 from Models.Device import Device, insert_device, get_all_devices, get_device_by_id, get_device_by_serial_num, update_device
-from app import app
+from app_old import app
 
 @app.route('/device', methods=['POST'])
 def create_device(serial_num, status):

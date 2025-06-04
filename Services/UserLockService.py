@@ -3,7 +3,7 @@ import json
 from Models.UserLock import UserLock
 from Models.MachineCommand import MachineCommand
 from Models.Device import Device
-from  app import  db
+from  app_old import  db
 class UserLockService:
     def __init__(self):
         self.session = db.session
